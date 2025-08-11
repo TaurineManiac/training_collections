@@ -9,6 +9,7 @@ public class TestMap {
         map.put("Vova", 12);
         map2.put("Vovan", 12);
         map.put("Vika", 16);
+        map.put("Vika",22);//с один и тем же именем рабоает последнее
         map2.put("Vikaka", 16);
         System.out.println(map);
         System.out.println(map2);
